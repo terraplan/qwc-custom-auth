@@ -89,6 +89,10 @@ def load_user(id):
 def login():
     return db_auth_handler().login()
 
+@app.route('/auth_redirect', methods=['GET'])
+@optional_auth
+def auth_redirect():
+    return db_auth_handler().auth_redirect()
 
 @app.route('/verify_login', methods=['POST'])
 @optional_auth
