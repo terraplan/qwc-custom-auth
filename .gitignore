@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
 .flaskenv
+.env
+.dbAuthConfig.json
+.pg_service.conf
