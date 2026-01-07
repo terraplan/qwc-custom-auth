@@ -14,4 +14,4 @@ RUN \
 
 ADD src /srv/qwc_service/
 
-ENV SERVICE_MOUNTPOINT=/auth
+ENV SERVICE_MOUNTPOINT=/custom-auth

@@ -2,5 +2,5 @@
 __pycache__/
 .flaskenv
 .env
-.dbAuthConfig.json
-.pg_service.conf
+dbAuthConfig.json
+pg_service.conf
